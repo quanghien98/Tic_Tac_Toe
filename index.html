@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TIC TAC TOE</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div id="table" class="table">
+        <h1>TIC TAC TOE</h1>
+        <table class="table_main">
+            <tr>
+                <th id="1" class="item"></th>
+                <th id="2" class="item"></th>
+                <th id="3" class="item"></th>
+            </tr>
+            <tr>
+                <th id="4" class="item"></th>
+                <th id="5" class="item"></th>
+                <th id="6" class="item"></th>
+            </tr>
+            <tr>
+                <th id="7" class="item"></th>
+                <th id="8" class="item"></th>
+                <th id="9" class="item"></th>
+            </tr>
+
+        </table>
+    </div>
+    <audio data-player1="X" src="./sound/openhat.wav"></audio>
+    <audio data-player2="0" src="./sound/tom.wav"></audio>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.js"
+        integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI=" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+    <script>
+        window.addEventListener('click', function () {
+            playTICTACTOE();
+        });
+    </script>
+</body>
+
+</html>

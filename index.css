@@ -1,0 +1,35 @@
+body{
+    color: white !important;
+}
+.table{
+    margin: auto;
+    align-items: center; 
+    justify-items: center;
+    background: black;
+    padding-bottom: 50px;
+}
+h1{
+    padding-top: 1%;
+    text-align: center;
+    margin-top: 0;
+}
+.table_main{
+    width: 30%;
+    height: 456px;
+    font-size: 50px;
+    font-weight: 400 !important;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    position: relative;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+th{
+    padding: 15px;
+    border: 1px solid #ddd;
+  }
+  .item{
+    font-weight: 400 !important;
+    width: 150px;
+  }
